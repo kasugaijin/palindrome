@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(./Anchorman-Wiki.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+
+#header:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#header-div, #input-div, #output-div, #container {
+    display: flex;
+}
+
+#header-div, #output-div, #container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: rgb(110, 114, 114);
+    margin-top: 10%;
+    padding: 2%;
+    width: 400px;
+    background: rgba(238, 248, 248, 0.85)
+}
+
